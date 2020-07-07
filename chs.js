@@ -144,7 +144,7 @@ var cnItems = {
     'Get': '获得',
     '"When all of the animals heard that Mrs. Tapir was going extinct, they decided to pay her a visit and see if they could offer her some advice." (Ze Frank, True Facts About the ': '“当所有的动物听说貘夫人即将灭绝时，他们决定去拜访她，看看能不能给她一些建议。”(泽弗兰克，真实的事实',
     ' in exchange for': ' 通过付出 ',
-    '': '',
+    '* Your zoo received its first visitors': '*您的动物园接待了第一批游客',
     '': '',
     '': '',
     '': '',
