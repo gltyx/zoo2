@@ -951,7 +951,7 @@ IZ.importClose = function() {
 
 // reset game
 IZ.reset = function() {
-	var r=confirm("Are you sure? You will lose all your progress (but gain in birth rates according to your number of achievements).");
+	var r=confirm("你确定吗？ 您将失去所有的进步（但根据成就的数量出生率会提高）。");
 	if (r==true) {
 		IZ.calculateBadges();
 		var resetBadges = IZ.Zoo.resetBadges + IZ.Zoo.badges.length;
