@@ -651,7 +651,7 @@ IZ.updatePopulation = function(id) {
 IZ.buy = function(slot, amount) {
 	console.log("buy", slot, amount);
 	if (IZ.Zoo.debt > IZ.Zoo.creditLimit.toFixed(2)) {
-		alert("You can't buy animals.Your debt is too high!");
+		alert("你不能购买动物了，你的债务太高了！");
 		return;
 	}
 	var clicked = slot.id;
@@ -678,7 +678,7 @@ IZ.buy = function(slot, amount) {
 	if (id > 1) {
 		var minimum = (id-2)*100 + 100;
 		if (IZ.Zoo.animals[id-2].own < minimum) {
-			alert("You must have at least " + minimum + " " + IZ.animals[id-2].plural + " to buy " + IZ.animals[id].plural);
+			alert("你必须要有至少 " + minimum + " " + IZ.animals[id-2].plural + " 去购买 " + IZ.animals[id].plural);
 			return;
 		}
 	}
