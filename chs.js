@@ -27,7 +27,7 @@ var cnItems = {
     'Max': '最大',
     'Loading...': '加载中...',
     'price boosts': '价格上涨',
-    'Reset': '重置',
+    'Reset': '转生',
     'Get a Bigger Enclosure: (': '获得一个更大的栅栏: (',
     'Get a Higher Birth Rate: (': '获得一个更高的出生率: (',
     'Get Higher Prices: (': '获得更高的价格: (',
